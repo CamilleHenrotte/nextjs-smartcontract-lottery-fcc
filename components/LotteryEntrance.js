@@ -4,7 +4,6 @@ import { useMoralis } from "react-moralis"
 import { useEffect, useState } from "react"
 import { ethers } from "ethers"
 import { useNotification } from "web3uikit"
-import { waitUntilSymbol } from "next/dist/server/web/spec-compliant/fetch-event"
 export default function LotteryEntrance() {
     const [entranceFee, setEntranceFee] = useState("0")
     const [numPlayers, setNumPlayers] = useState("0")
